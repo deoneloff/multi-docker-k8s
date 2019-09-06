@@ -9,9 +9,9 @@ spec:
       component: web
   template:
     metadata:
-      label:
+      labels:
         component: web
     spec:
       containers:
         - name: client
-          image: deoneloff/multi-client
+          image: stephengrider/multi-client
